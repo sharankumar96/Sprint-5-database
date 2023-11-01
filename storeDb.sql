@@ -173,6 +173,36 @@ INSERT INTO emloyees VALUES(
     'female',
     '1980-08-01'
 );
+INSERT INTO emloyees VALUES(
+    4,
+     'pro',
+    'raju',
+    'roopattan',
+    ',akathaoprahutl@gmail.com',
+    '8126007701',
+    'female',
+    '1968-01-01'
+),
+(5,
+     'customer care',
+    'radha',
+    'radharadha',
+    'radhamol@gmail.com',
+    '9645277434',
+    'female',
+    '2000-02-01'
+),
+(
+    6,
+     'sales',
+    'babu',
+    'babumon',
+    'babumon@gmail.com',
+    '8086049144',
+    'male',
+    '1990-06-09'
+);
+
 INSERT INTO bills VALUES(
     1,
     'ATHIRA',
@@ -196,6 +226,7 @@ INSERT INTO bills VALUES(
     '01-11-2023'
 
 );
+
 
 -- where condition
 

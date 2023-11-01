@@ -80,6 +80,41 @@ INSERT INTO category VALUES(
     '01-01-2024'
  );
 
+ INSERT INTO products VALUES(
+    4,
+    'bru',
+    1,
+    'coffie powder',
+    53,
+    '18-05-2025'
+ ),
+(
+    5,
+    'sunflower',
+    1,
+    'oil',
+    155,
+    '25-11-2025'
+
+ ),
+(
+    6,
+    'himalaya pink salt',
+    1,
+    'salt',
+    150,
+    '22-09-2026'
+
+ );
+ INSERT INTO products VALUES(
+    7,
+    'yippie noodles',
+    1,
+    'veg noodles',
+    30,
+    '07-03-2024'
+ );
+
 
 --  to display products that are added on 
 
@@ -107,3 +142,43 @@ CREATE TABLE bills(
     gender VARCHAR(20),
     dob DATE
  );
+
+--  select command with number of records to return
+
+SELECT * FROM products LIMIT 4;
+
+-- Lke oprator
+
+SELECT * FROM emloyees WHERE last_name LIKE 'r%';
+
+SELECT * FROM products WHERE product_name LIKE 'm%';
+
+SELECT * FROM products WHERE product_name LIKE '%noodles%';
+
+SELECT * FROM emloyees WHERE first_name LIKE '_g%';
+
+SELECT * FROM emloyees WHERE first_name LIKE '__a%';
+
+SELECT * FROM emloyees WHERE first_name LIKE '__a%' LIMIT 2;
+
+SELECT * FROM emloyees WHERE phone LIKE '6226______';
+
+SELECT * FROM emloyees WHERE type LIKE '%Manager%';
+
+
+-- update command
+
+UPDATE emloyees SET email = 'sharankumarkpclt@gmail.com' WHERE first_name = 'Bgatha' AND last_name = 'rajuettan';
+
+-- delete command
+
+DELETE FROM emloyees WHERE first_name = 'kkatha';
+
+UPDATE emloyees SET type = 'BPO' WHERE first_name = 'babu' AND last_name = 'babumon';
+
+
+
+
+
+
+
