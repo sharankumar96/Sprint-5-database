@@ -33,6 +33,16 @@ INSERT INTO category VALUES(
 );
 
 
+INSERT INTO category VALUES(
+    4,
+    'Electronics',
+    'Home appliances and gadgets'
+    
+),
+
+(5,'Furniture','Furnishing items like sofa etc .');
+
+
  pk_category_id | category_name |         description
 ----------------+---------------+------------------------------
               1 | grocery       | daily needs

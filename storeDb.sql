@@ -300,3 +300,4 @@ INSERT INTO student_grade(student_id, subject, grade)VALUES
 (10, 'CHEMISTRY', 'F'),
 (10, 'PHYSICS', 'A'),
 (10, 'BIOLOGY', 'B');
+
